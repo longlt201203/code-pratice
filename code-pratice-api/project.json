@@ -1,0 +1,24 @@
+{
+  "name": "code-pratice-api",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "code-pratice-api/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "code-pratice-api:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "code-pratice-api:build:development"
+        },
+        "production": {
+          "buildTarget": "code-pratice-api:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "code-pratice-fe",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "code-pratice-fe/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
